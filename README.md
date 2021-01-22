@@ -9,7 +9,7 @@ https://www.kaggle.com/henriqueyamahata/bank-marketing
 
 Features:
 •	Discrete = pdays, previous, emp.var.rate, cons.price.idx, cons.conf.idx, nr.employeed
-•	Continuous = age, duration, campaign, euribor3m
+Continuous = age, duration, campaign, euribor3m
 •	Dichotomous = default, housing, loan, contact
 •	Polychotomous = job, marital, education, month, day_of_week, poutcome
 
