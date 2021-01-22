@@ -3,6 +3,7 @@ Classify whether client will subscribe to term deposit plan
 
 Use Case: 
 The aim here is to classify whether a client will subscribe to a term deposit plan or not. (Binary Classification)
+
 Data set url: 
 https://www.kaggle.com/henriqueyamahata/bank-marketing
 
@@ -43,28 +44,4 @@ o	LightGBM Classifier
 o	Logistic Regression
 o	KNN Classifier
 o	Decision Tree Classifier.
-
-Model Performance: (Metric Accuracy)
-### Hyper parameter tuning:
-
-# xgboost : 0.9460779708783467
-# RandomForestClassifier : 0.8956317519962423
-
-
-### UP SAMPLING and One Hot encoding
-
-# Catboost : 0.9428839830906529
-# LightGBM : 0.9457022076092062
-
-
-### No Up sampling and LabelEncoding
-
-# Catboost : 0.9081063340991139
-# LightGBM : 0.9043321299638989
-
-
-### Voting Classifier ( Logistic Regression, KNN, Decision Tree Classifier)
-
-## Accuracy : 0.9389384687646782
-
 
